@@ -1,4 +1,22 @@
-.left-wraper{float:left; background: green; width: 400px; height: 400px; margin:5px}
-.right-wraper{float:right; background: green; width: 400px; height: 400px; margin:5px}
-.box::after{content: ""; clear:both; display: block;}
-
+html,body{height:100%;width:100%;}
+body{padding:2%}
+.main-wraper
+{background: #042f5f;border:4px solid #070068;width:100%;height:100%;padding:2%}
+.white-wraper
+{background: #fff;border:4px solid #0071bc;height: 100%; width: 100%;padding: 2%}
+.blue-box1
+{background: #304a68;height: 35%;margin-top:1%;padding:2%}
+.blue-box2
+{background: #304a68;height: 55%;margin-top:4%}
+.blue-box2 P 
+{color: #fff;text-align: center;font-size:50px}
+.white-box
+{height:100%;width: 20%; background: #fff;display:inline-block;}
+.white-box:nth-child(1)
+{background: green}
+.white-box:nth-child(2)
+{background: blue}
+.white-box:nth-child(3)
+{background: red}
+.white-box:nth-child(4)
+{background: black}
