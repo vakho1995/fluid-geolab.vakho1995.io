@@ -1,18 +1,4 @@
-.image{float: right; width: 300px}
-.text{float: left; width: 500px}
-.clear{clear: both;}
-/*.text1{display: inline-block;}*/
-.text1::before{content: "";
-background: blue;
-width:5px;
-height: 20px;
-display: inline-block;
-margin: 0 20px}
+.left-wraper{float:left; background: green; width: 400px; height: 400px; margin:5px}
+.right-wraper{float:right; background: green; width: 400px; height: 400px; margin:5px}
+.box::after{content: ""; clear:both; display: block;}
 
-.text1::after{content: "";
-background: red;
-width: 5px;
-height:20px;
-display: inline-block;
-margin: 0 20px;
-}
