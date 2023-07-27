@@ -9,14 +9,16 @@ body{padding:2%}
 .blue-box2
 {background: #304a68;height: 55%;margin-top:4%}
 .blue-box2 P 
-{color: #fff;text-align: center;font-size:50px}
+{color: #fff;text-align: center;font-size:50px;}
 .white-box
-{height:100%;width: 20%; background: #fff;display:inline-block;}
+{height:100%;width: 20%; background: #fff;display:inline-block; padding: 2%}
 .white-box:nth-child(1)
-{background: green}
+{margin-left: 2%}
 .white-box:nth-child(2)
-{background: blue}
+{margin-left: 5%}
 .white-box:nth-child(3)
-{background: red}
+{margin-left: 5%}
 .white-box:nth-child(4)
-{background: black}
+{margin-left: 5%}
+.light-blue{background: #75b3f9;height: 100%;width: 100%}
+.light-blue p {color:white;text-align: center;}
